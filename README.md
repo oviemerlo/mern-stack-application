@@ -32,6 +32,12 @@ cd frontend
 npm install
 Run
 
+#Environment Variable:
+NODE_ENV=development
+PORT=5000
+MONGO_URI=mongodb+srv://opologrind:motherboard&!~~$@mernauth.5lplrlf.mongodb.net/mernauth?retryWrites=true&w=majority&appName=mernAuth
+JWT_SECRET=abc123
+
 # Run frontend (:3000) & backend (:5000)
 npm run dev
 
